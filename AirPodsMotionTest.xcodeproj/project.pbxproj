@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7731FDBC2C76C50400B8D4A5 /* AirPodsMotionTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FDBB2C76C50400B8D4A5 /* AirPodsMotionTestApp.swift */; };
+		7731FDBE2C76C50400B8D4A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FDBD2C76C50400B8D4A5 /* ContentView.swift */; };
+		7731FDC02C76C50400B8D4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7731FDBF2C76C50400B8D4A5 /* Assets.xcassets */; };
+		7731FDC32C76C50400B8D4A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7731FDC22C76C50400B8D4A5 /* Preview Assets.xcassets */; };
+		7731FDCE2C76C50500B8D4A5 /* AirPodsMotionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FDCD2C76C50500B8D4A5 /* AirPodsMotionTestTests.swift */; };
+		7731FDD82C76C50500B8D4A5 /* AirPodsMotionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FDD72C76C50500B8D4A5 /* AirPodsMotionTestUITests.swift */; };
+		7731FDDA2C76C50500B8D4A5 /* AirPodsMotionTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FDD92C76C50500B8D4A5 /* AirPodsMotionTestUITestsLaunchTests.swift */; };
+		7731FDE82C76C95000B8D4A5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7731FDE72C76C95000B8D4A5 /* CoreMotion.framework */; };
+		7731FDEA2C76C97900B8D4A5 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FDE92C76C97900B8D4A5 /* MotionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7731FDCA2C76C50500B8D4A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7731FDB02C76C50400B8D4A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7731FDB72C76C50400B8D4A5;
+			remoteInfo = AirPodsMotionTest;
+		};
+		7731FDD42C76C50500B8D4A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7731FDB02C76C50400B8D4A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7731FDB72C76C50400B8D4A5;
+			remoteInfo = AirPodsMotionTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7731FDB82C76C50400B8D4A5 /* AirPodsMotionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPodsMotionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7731FDBB2C76C50400B8D4A5 /* AirPodsMotionTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPodsMotionTestApp.swift; sourceTree = "<group>"; };
+		7731FDBD2C76C50400B8D4A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7731FDBF2C76C50400B8D4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7731FDC22C76C50400B8D4A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7731FDC42C76C50400B8D4A5 /* AirPodsMotionTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirPodsMotionTest.entitlements; sourceTree = "<group>"; };
+		7731FDC92C76C50500B8D4A5 /* AirPodsMotionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPodsMotionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7731FDCD2C76C50500B8D4A5 /* AirPodsMotionTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPodsMotionTestTests.swift; sourceTree = "<group>"; };
+		7731FDD32C76C50500B8D4A5 /* AirPodsMotionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPodsMotionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7731FDD72C76C50500B8D4A5 /* AirPodsMotionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPodsMotionTestUITests.swift; sourceTree = "<group>"; };
+		7731FDD92C76C50500B8D4A5 /* AirPodsMotionTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPodsMotionTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7731FDE72C76C95000B8D4A5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7731FDE92C76C97900B8D4A5 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		77347DA12C770CB200FAB114 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7731FDB52C76C50400B8D4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731FDE82C76C95000B8D4A5 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731FDC62C76C50500B8D4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731FDD02C76C50500B8D4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7731FDAF2C76C50400B8D4A5 = {
+			isa = PBXGroup;
+			children = (
+				77347DA12C770CB200FAB114 /* .gitignore */,
+				7731FDBA2C76C50400B8D4A5 /* AirPodsMotionTest */,
+				7731FDCC2C76C50500B8D4A5 /* AirPodsMotionTestTests */,
+				7731FDD62C76C50500B8D4A5 /* AirPodsMotionTestUITests */,
+				7731FDB92C76C50400B8D4A5 /* Products */,
+				7731FDE62C76C94F00B8D4A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7731FDB92C76C50400B8D4A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7731FDB82C76C50400B8D4A5 /* AirPodsMotionTest.app */,
+				7731FDC92C76C50500B8D4A5 /* AirPodsMotionTestTests.xctest */,
+				7731FDD32C76C50500B8D4A5 /* AirPodsMotionTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7731FDBA2C76C50400B8D4A5 /* AirPodsMotionTest */ = {
+			isa = PBXGroup;
+			children = (
+				7731FDBB2C76C50400B8D4A5 /* AirPodsMotionTestApp.swift */,
+				7731FDBD2C76C50400B8D4A5 /* ContentView.swift */,
+				7731FDBF2C76C50400B8D4A5 /* Assets.xcassets */,
+				7731FDC42C76C50400B8D4A5 /* AirPodsMotionTest.entitlements */,
+				7731FDC12C76C50400B8D4A5 /* Preview Content */,
+				7731FDE92C76C97900B8D4A5 /* MotionManager.swift */,
+			);
+			path = AirPodsMotionTest;
+			sourceTree = "<group>";
+		};
+		7731FDC12C76C50400B8D4A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7731FDC22C76C50400B8D4A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7731FDCC2C76C50500B8D4A5 /* AirPodsMotionTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7731FDCD2C76C50500B8D4A5 /* AirPodsMotionTestTests.swift */,
+			);
+			path = AirPodsMotionTestTests;
+			sourceTree = "<group>";
+		};
+		7731FDD62C76C50500B8D4A5 /* AirPodsMotionTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7731FDD72C76C50500B8D4A5 /* AirPodsMotionTestUITests.swift */,
+				7731FDD92C76C50500B8D4A5 /* AirPodsMotionTestUITestsLaunchTests.swift */,
+			);
+			path = AirPodsMotionTestUITests;
+			sourceTree = "<group>";
+		};
+		7731FDE62C76C94F00B8D4A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7731FDE72C76C95000B8D4A5 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7731FDB72C76C50400B8D4A5 /* AirPodsMotionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7731FDDD2C76C50500B8D4A5 /* Build configuration list for PBXNativeTarget "AirPodsMotionTest" */;
+			buildPhases = (
+				7731FDB42C76C50400B8D4A5 /* Sources */,
+				7731FDB52C76C50400B8D4A5 /* Frameworks */,
+				7731FDB62C76C50400B8D4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPodsMotionTest;
+			productName = AirPodsMotionTest;
+			productReference = 7731FDB82C76C50400B8D4A5 /* AirPodsMotionTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7731FDC82C76C50500B8D4A5 /* AirPodsMotionTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7731FDE02C76C50500B8D4A5 /* Build configuration list for PBXNativeTarget "AirPodsMotionTestTests" */;
+			buildPhases = (
+				7731FDC52C76C50500B8D4A5 /* Sources */,
+				7731FDC62C76C50500B8D4A5 /* Frameworks */,
+				7731FDC72C76C50500B8D4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7731FDCB2C76C50500B8D4A5 /* PBXTargetDependency */,
+			);
+			name = AirPodsMotionTestTests;
+			productName = AirPodsMotionTestTests;
+			productReference = 7731FDC92C76C50500B8D4A5 /* AirPodsMotionTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7731FDD22C76C50500B8D4A5 /* AirPodsMotionTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7731FDE32C76C50500B8D4A5 /* Build configuration list for PBXNativeTarget "AirPodsMotionTestUITests" */;
+			buildPhases = (
+				7731FDCF2C76C50500B8D4A5 /* Sources */,
+				7731FDD02C76C50500B8D4A5 /* Frameworks */,
+				7731FDD12C76C50500B8D4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7731FDD52C76C50500B8D4A5 /* PBXTargetDependency */,
+			);
+			name = AirPodsMotionTestUITests;
+			productName = AirPodsMotionTestUITests;
+			productReference = 7731FDD32C76C50500B8D4A5 /* AirPodsMotionTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7731FDB02C76C50400B8D4A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7731FDB72C76C50400B8D4A5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					7731FDC82C76C50500B8D4A5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7731FDB72C76C50400B8D4A5;
+					};
+					7731FDD22C76C50500B8D4A5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7731FDB72C76C50400B8D4A5;
+					};
+				};
+			};
+			buildConfigurationList = 7731FDB32C76C50400B8D4A5 /* Build configuration list for PBXProject "AirPodsMotionTest" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7731FDAF2C76C50400B8D4A5;
+			productRefGroup = 7731FDB92C76C50400B8D4A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7731FDB72C76C50400B8D4A5 /* AirPodsMotionTest */,
+				7731FDC82C76C50500B8D4A5 /* AirPodsMotionTestTests */,
+				7731FDD22C76C50500B8D4A5 /* AirPodsMotionTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7731FDB62C76C50400B8D4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731FDC32C76C50400B8D4A5 /* Preview Assets.xcassets in Resources */,
+				7731FDC02C76C50400B8D4A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731FDC72C76C50500B8D4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731FDD12C76C50500B8D4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7731FDB42C76C50400B8D4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731FDBE2C76C50400B8D4A5 /* ContentView.swift in Sources */,
+				7731FDEA2C76C97900B8D4A5 /* MotionManager.swift in Sources */,
+				7731FDBC2C76C50400B8D4A5 /* AirPodsMotionTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731FDC52C76C50500B8D4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731FDCE2C76C50500B8D4A5 /* AirPodsMotionTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731FDCF2C76C50500B8D4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731FDD82C76C50500B8D4A5 /* AirPodsMotionTestUITests.swift in Sources */,
+				7731FDDA2C76C50500B8D4A5 /* AirPodsMotionTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7731FDCB2C76C50500B8D4A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7731FDB72C76C50400B8D4A5 /* AirPodsMotionTest */;
+			targetProxy = 7731FDCA2C76C50500B8D4A5 /* PBXContainerItemProxy */;
+		};
+		7731FDD52C76C50500B8D4A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7731FDB72C76C50400B8D4A5 /* AirPodsMotionTest */;
+			targetProxy = 7731FDD42C76C50500B8D4A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7731FDDB2C76C50500B8D4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7731FDDC2C76C50500B8D4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7731FDDE2C76C50500B8D4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirPodsMotionTest/AirPodsMotionTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirPodsMotionTest/Preview Content\"";
+				DEVELOPMENT_TEAM = N783J9CB2J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kro.kr.dyacode.AirPodsMotionTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7731FDDF2C76C50500B8D4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirPodsMotionTest/AirPodsMotionTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirPodsMotionTest/Preview Content\"";
+				DEVELOPMENT_TEAM = N783J9CB2J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kro.kr.dyacode.AirPodsMotionTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7731FDE12C76C50500B8D4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N783J9CB2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kro.kr.dyacode.AirPodsMotionTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPodsMotionTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirPodsMotionTest";
+			};
+			name = Debug;
+		};
+		7731FDE22C76C50500B8D4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N783J9CB2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kro.kr.dyacode.AirPodsMotionTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPodsMotionTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirPodsMotionTest";
+			};
+			name = Release;
+		};
+		7731FDE42C76C50500B8D4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N783J9CB2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kro.kr.dyacode.AirPodsMotionTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AirPodsMotionTest;
+			};
+			name = Debug;
+		};
+		7731FDE52C76C50500B8D4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N783J9CB2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kro.kr.dyacode.AirPodsMotionTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AirPodsMotionTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7731FDB32C76C50400B8D4A5 /* Build configuration list for PBXProject "AirPodsMotionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7731FDDB2C76C50500B8D4A5 /* Debug */,
+				7731FDDC2C76C50500B8D4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7731FDDD2C76C50500B8D4A5 /* Build configuration list for PBXNativeTarget "AirPodsMotionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7731FDDE2C76C50500B8D4A5 /* Debug */,
+				7731FDDF2C76C50500B8D4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7731FDE02C76C50500B8D4A5 /* Build configuration list for PBXNativeTarget "AirPodsMotionTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7731FDE12C76C50500B8D4A5 /* Debug */,
+				7731FDE22C76C50500B8D4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7731FDE32C76C50500B8D4A5 /* Build configuration list for PBXNativeTarget "AirPodsMotionTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7731FDE42C76C50500B8D4A5 /* Debug */,
+				7731FDE52C76C50500B8D4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7731FDB02C76C50400B8D4A5 /* Project object */;
+}
